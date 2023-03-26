@@ -1,6 +1,7 @@
 {
-    "name": "headline",
-    "description": "A Ghost theme",
+    "name": "headline-yovko",
+    "description": "A modified version of Ghost's Headline theme",
+    "demo": "https://yovko.net",
     "version": "1.0.0",
     "private": true,
     "engines": {
