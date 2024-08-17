@@ -7,6 +7,13 @@
     --head-nav-gap: 32px;
     --color-primary-text: var(--color-darker-gray);
     --h1-size: 4.4rem;
+    --footer-spacing: 120px;
+}
+
+@media (max-width: 767px) {
+    :root {
+        --footer-spacing: 64px;
+    }
 }
 
 figcaption {
@@ -176,6 +183,7 @@ body:not(.home-template) .gh-topic-grid .gh-card {
     font-size: 2rem;
     line-height: 1.3;
     letter-spacing: -0.015em;
+    word-break: break-word;
 }
 
 .gh-topic-grid .gh-card.large .gh-card-title {
@@ -201,6 +209,7 @@ body:not(.home-template) .gh-topic-grid .gh-card {
 .gh-topic-grid .gh-card-excerpt {
     margin-top: 12px;
     font-size: 1.7rem;
+    word-break: break-word;
 }
 
 .gh-topic-grid .gh-card.no-image.large .gh-card-excerpt {
@@ -295,6 +304,7 @@ body:not(.home-template) .gh-topic-grid .gh-card {
     font-weight: 400;
     line-height: 1.6;
     letter-spacing: -0.01em;
+    word-break: break-word;
 }
 
 .gh-topic-minimal .gh-card + .gh-card {
@@ -541,6 +551,7 @@ body:not(.home-template) .gh-topic-grid .gh-card {
     font-size: 7.2rem;
     color: var(--color-white);
     text-transform: uppercase;
+    word-break: break-word;
 }
 
 .tag-template .gh-cover-title {
@@ -637,6 +648,10 @@ body:not(.home-template) .gh-topic-grid .gh-card {
     padding-bottom: 120px;
     margin-top: 120px;
     background-color: var(--color-darker-gray);
+}
+
+.page-template .gh-foot {
+    margin-top: 0;
 }
 
 .gh-foot,
